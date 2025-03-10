@@ -2,6 +2,12 @@
 
 This project analyzes and predicts the relationship between input tokens (characters sent to ChatGPT) and output tokens (characters returned in responses) for the GPT-4o-2024-08-06 model. The analysis reveals a hybrid pattern where responses follow a linear relationship for smaller inputs and a logarithmic relationship for larger inputs.
 
+## Visualization of the Hybrid Model
+
+![GPT-4o Token Response Prediction Model](zoomed_hybrid_model.png)
+
+*The graph shows how GPT-4o responses follow a linear pattern (y = x) for inputs up to 1552.91 characters, then transition to a logarithmic pattern for larger inputs. The maximum response length of ~3260 characters occurs at an input of ~31,943 characters.*
+
 ## Data Context
 
 The dataset represents actual input and output character counts from interactions with the GPT-4o-2024-08-06 model:
